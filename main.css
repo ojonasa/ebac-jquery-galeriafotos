@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(32, 32, 32);
+}
+
+.container {
+    width: 100vw;
+}
+
+.headerbox {
+    background-color: rgb(107, 173, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 12px 0;
+
+}
+
+button {
+    font-size: 14px;
+    font-weight: 900;
+    height: 32px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 2px solid rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: rgb(233, 233, 233);
+}
+
+#expandbox {
+    background-color: rgb(95, 102, 192);
+    color: rgb(245, 245, 245);
+
+}
+
+#url-imagem {
+    height: 32px;
+    width: 250px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(48, 48, 48);
+}
+
+#titulo-imagem {
+    height: 32px;
+    width: 150px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(48, 48, 48);
+}
+
+#adc-imagem {
+    height: 32px;
+    background-color: rgb(107, 173, 105);
+    color: rgb(245, 245, 245);
+
+}
+
+#canc-imagem {
+    height: 32px;
+    background-color: rgb(211, 91, 91);
+    color: rgb(245, 245, 245);
+
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+
+.insertbox {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    border-top: 6px solid rgb(204, 204, 204)
+}
+
+.inputbox {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ul li {
+    margin-top: 10px;
+    width: 24.2%;
+    max-height: 280px;
+    list-style: none;
+    position: relative;
+    overflow-y: hidden;
+}
+
+ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlink-imagemlink {
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all ease .3s;
+}
+
+.overlink-imagemlink a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+ul li:hover .overlink-imagemlink {
+    opacity: 1;
+}
+
+.prev-imagem {
+    display: block; 
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    position: relative;
+}
+
+#prev-imagem {
+    display: block;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}

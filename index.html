@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="headerbox">
+        <h2>GALERIA DE FOTOS!</h2>
+        <button id="expandbox">Nova Imagem</button>
+    </div>
+    
+    <form class="insertbox">
+      <h3>UPLOAD!</h3>
+      <div class="inputbox">
+          <span class="prev-imagem">
+            <img id="prev-imagem" src="" alt="">
+          </span>
+          <input type="text" id="url-imagem" placeholder="URL da Imagem">
+          <input type="text" id="titulo-imagem" placeholder="Titulo da Imagem">
+          <button id="adc-imagem" type="submit">Adicionar</button>
+          <button id="canc-imagem" type="reset">Cancelar</button>
+        </div>
+    </form>
+    <ul>
+      <li>
+        <img src="/img/foto1.jpg" alt="imagem de gato">
+        <div class="overlink-imagemlink">
+          <a href="/img/foto1.jpg" title="Ver imagem em tamanho real
+" target="_blank">
+            Ver imagem em tamanho real
+          </a>
+        </div>
+      </li>
+      <li>
+        <img src="/img/foto2.jpg" alt="imagem de gato">
+        <div class="overlink-imagemlink">
+          <a href="/img/foto2.jpg" title="Ver imagem em tamanho real
+" target="_blank">
+            Ver imagem em tamanho real
+          </a>
+        </div>
+      </li>
+      <li>
+        <img src="/img/foto3.jpg" alt="imagem de gato">
+        <div class="overlink-imagemlink">
+          <a href="/img/foto3.jpg" title="Ver imagem em tamanho real
+" target="_blank">
+            Ver imagem em tamanho real
+          </a>
+        </div>
+      </li>
+    </ul>  
+
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
